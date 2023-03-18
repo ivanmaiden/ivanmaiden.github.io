@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>MS Solutions</title>
+	<link rel="icon" type="image/ico" href="favicon.ico">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+
+	<header>
+		
+	
+		<div class="contenedor">
+			<p class="logo">MS Solutions</p>
+			<nav>
+					<a href="#sobre_mi" title="">Sobre mi</a>
+					<a href="#habilidades" title="">Habilidades</a>
+					<a href="#experiencia" title="">Experiencia</a>
+					<a href="#formulario" title="">Contacto</a>
+			</nav>
+		</div>
+	
+    </header><!-- /header -->
+
+    <section id="hero_imagen">
+
+    	<div class="contenedor">
+
+			<div class="retrato">
+				<img id="foto" src="https://randomuser.me/api/portraits/men/94.jpg" alt="Mark Smitt" title="Mark Smitt">
+			</div>				
+
+		    <div class="nombre">
+				<h1 id="mark">Mark Smitt</h1>
+				<h2 id="front"><em>Front End Developer</em></h2>	
+		    </div>
+    	
+    	</div>
+
+
+    </section>
+
+
+    <section id="sobre_mi">
+    	
+    		<div class="contenedor_info">
+
+			    <i id="uno"class="fa fa-10x fa-address-card"style="color: rgb(245, 69, 32)"></i>
+			    <h3>Información personal</h3>
+		    
+		         <div class="div_boton">
+				     <button class="readMore_btn" href="#" onclick="vermas('mas')" id="mas">&nbsp;&nbsp;+ Info</button>
+			     </div>
+			</div>     
+
+
+		    <div class="lista_personal">
+			    <ul id="personal_lista">
+			       <!--<span id="hideText" class="hideText">-->
+				   <li><i class="fas fa-2x fa-flag" style="color:blue;"></i>&nbsp;&nbsp;Nacionalidad:<em>&nbsp;Argentina</em></li>
+				   <li><i class="fa fa-2x fa-child" style="color:silver";></i>&nbsp;&nbsp;&nbsp;&nbsp;Edad: <em>34</em></li>
+				   <li><i class="fa fa-2x fa-tasks" style="color:navy;"></i>&nbsp;&nbsp;Profesión: <em>Programador Web</em></li>
+				   <li><i class="fa fa-2x fa-envelope" style="color:fuchsia;"></i>&nbsp;&nbsp;E-mail: <em>Lorem@ipsum.com</em></li>
+				   <li><i id="one" class="fa fa-2x fa-map-marker" style="color:skyblue;"></i>&nbsp;&nbsp;&nbsp;&nbsp;Localidad: <em> Mar del Plata</em></li>
+				   <div class="boton_menos" id="menos">
+				   	<button href="#" onclick="vermas('menos')">&nbsp;&nbsp;Ocultar</button>
+				   </div>
+				   
+			    </ul>	
+			    		
+		    </div>
+    	
+    </section>
+
+
+    <section id="habilidades">
+    	
+		<div class="contenedor_info">
+			
+			<i class="fa fa-10x fa-cogs"style="color: rgb(245, 69, 32)"></i>
+			<h3>Habilidades</h3>	
+		    
+		    <div class="div_boton">
+				<button class="readMore_btn" href="#" onclick="vermas1('mas1')" id="mas1">&nbsp;&nbsp;+ Info</button>	
+		     </div>
+ 	    </div>
+
+		<div class="contenedor_lista">
+			
+			<ul id="habilidades_lista">
+				<!--<span id="hideTextA" class="hideTextA">-->
+				
+				<li><i class="fab fa-2x fa-html5" style="color: red;"></i>&nbsp;&nbsp;HTML:</li>
+				<p class="descripcion"><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </em></p>
+				<li><i class="fab fa-2x fa-css3" style="color: orange;"></i>&nbsp;&nbsp;CSS:</li>
+				<p class="descripcion"><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </em></p>
+				<li><i class="fab fa-2x fa-js" style="color: yellow"></i>&nbsp;&nbsp;JavaScript:</li>
+				<p class="descripcion"><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </em></p>
+				<li><i class="fas fa-2x fa-database" style="color: blue;"></i>&nbsp;&nbsp;Database:</li>
+				<p class="descripcion"><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </em></p>
+				<li><i class="fab fa-2x fa-java" style="color: green;"></i>&nbsp;&nbsp;Java:</li>
+				<p class="descripcion"><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </em></p>
+				<div class="boton_menos">
+					<button href="#" onclick="vermas1('menos1')" >&nbsp;&nbsp;Ocultar</button>
+				</div>
+				
+
+			</ul>
+			
+			
+		</div>	
+			
+	</section>
+
+
+
+	<section id="experiencia">
+
+		<div class="contenedor_info">
+			<i class="fa fa-10x fa-network-wired"style="color: rgb(245, 69, 32)"></i>
+			<h3>Experiencia Laboral</h3>				
+		
+		    <div class="div_boton">
+				<button class="readMore_btn" href="#" onclick="vermas2('mas2')" id="mas2">&nbsp;&nbsp;+ Info</button>
+				
+			</div>
+	    </div>
+
+		<div class="lista_experiencia">
+			<ul id="experiencia_lista">
+				<li><i class="fa-sharp fa-2x fa fa-barcode" style="color: purple;"></i>&nbsp;&nbsp;Bank of State</li>
+				<p>Periodo: 2015-2019</p>	
+				<p class="descripcion">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>						
+				<li><i class="fa fa-2x fa-mosque" style="color: violet;"></i>&nbsp;&nbsp;Bank of City</li>
+				<p> Periodo: 2019-2021</p>
+				<p class="descripcion">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				<div class="boton_menos">
+					<button  href="#" onclick="vermas2('menos2')" >&nbsp;&nbsp;Ocultar</button>
+				</div>
+				
+			</ul>
+		</div>
+		
+	</section>
+		
+
+
+    <section id="formulario"> <!--inicia formulario-->
+    	
+    
+
+        <div class="contenedor_info" > 
+        	
+        	<i class="fa fa-10x fa-business-time"style="color: rgb(245, 69, 32)"></i>        	         
+            <h3>Formulario de contacto</h3>
+                    
+            <div class="div_boton">
+				<button class="readMore_btn" href="#" onclick="vermas3('mas3')" id="mas3">&nbsp;&nbsp;+ Info</button>
+		    </div>
+
+        </div>
+
+
+        <div id="formulario_de_contacto">
+        	
+
+        	<h2>Escríbeme y en breve me pondré en contacto contigo</h2>
+           
+
+            <div id="formulario_texto">
+           		
+           	    <form action="" method="post">       
+                    <p>
+                        <label>Nombre<span class="obligatorio">*</span></label>
+                        <input type="text" name="introducir_nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+              
+                    <p>
+                       <label>Email<span class="obligatorio">*</span></label>
+                        <input type="email" name="introducir_email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+            
+                    <p>
+                       <label>Teléfono<span class="obligatorio">*</span></label>
+                       <input type="tel" name="introducir_telefono" placeholder="Escribe tu teléfono">
+                    </p>    
+              
+                    <p>
+                        <label>Asunto<span class="obligatorio">*</span></label>
+                        <input type="text" name="introducir_asunto" required="obligatorio" placeholder="Escribe un asunto">
+                   </p>    
+              
+                    <p>
+                        <label>Mensaje<span class="obligatorio">*</span></label>                     
+                        <textarea name="introducir_mensaje" class="texto_mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                    </p>                    
+              
+                     <button type="submit" name="enviar_formulario"><p>Enviar</p></button>
+
+                     <p >
+                        <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>          
+            
+                </form>
+            </div>
+            <div class="boton_menos" id="ultimo_boton">
+					<button  href="#" onclick="vermas3('menos3')" >&nbsp;&nbsp;Ocultar</button>
+		    </div>
+
+        </div>
+
+    </section>		<!-- fin de formulario de contacto-->
+
+
+    <footer>
+        <div class="foot">
+            <p>&copy; MS Solutions</p>
+        </div>
+    </footer>
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
